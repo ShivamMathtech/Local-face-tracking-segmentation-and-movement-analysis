@@ -1,0 +1,5 @@
+algorithm,detector,frames,processing_fps,mean_latency_ms,continuity_percent,lost_frames,detection_count
+detector-only,Synthetic scripted boxes (demo only),210,144.07342205480487,6.940905447637696,71.42857142857143,60,390
+detector+kalman,Synthetic scripted boxes (demo only),210,150.4655714312363,6.646038628557671,71.42857142857143,60,390
+detector+flow,Synthetic scripted boxes (demo only),210,45.07982518413319,22.182872180967802,71.42857142857143,60,390
+detector+kalman+flow,Synthetic scripted boxes (demo only),210,28.37905135306418,35.237259609526255,71.42857142857143,60,390

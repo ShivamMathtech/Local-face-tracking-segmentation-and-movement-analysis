@@ -1,0 +1,43 @@
+usage: __main__.py [-h]
+                   [--camera CAMERA | --video VIDEO | --image IMAGE | --rtsp RTSP | --demo]
+                   [--config CONFIG] [--detector {haar,mediapipe,yunet}]
+                   [--detector-model DETECTOR_MODEL]
+                   [--landmark-model LANDMARK_MODEL] [--headless]
+                   [--auto-lock] [--record] [--max-frames MAX_FRAMES]
+                   [--output OUTPUT] [--compare]
+                   [--download-model {landmarker,detector,yunet}]
+                   [--model-dir MODEL_DIR] [--sha256 SHA256]
+                   [--calibrate CALIBRATE] [--board-columns BOARD_COLUMNS]
+                   [--board-rows BOARD_ROWS] [--square-size SQUARE_SIZE]
+                   [--debug]
+
+Face Motion Lab: local face tracking and movement analysis
+
+options:
+  -h, --help            show this help message and exit
+  --camera CAMERA       Camera device index
+  --video VIDEO         Video path
+  --image IMAGE         Image path
+  --rtsp RTSP           RTSP/IP stream URL (prefer UI to avoid shell history)
+  --demo                Synthetic demo with scripted boxes, no model required
+  --config CONFIG       Settings YAML or JSON
+  --detector {haar,mediapipe,yunet}
+  --detector-model DETECTOR_MODEL
+  --landmark-model LANDMARK_MODEL
+  --headless            Process without Qt and export analytics
+  --auto-lock           Explicitly lock first largest visible face in headless
+                        run
+  --record              Explicitly record headless processed video and
+                        analytics
+  --max-frames MAX_FRAMES
+  --output OUTPUT
+  --compare             Compare four tracker settings on a video/demo
+  --download-model {landmarker,detector,yunet}
+  --model-dir MODEL_DIR
+  --sha256 SHA256
+  --calibrate CALIBRATE
+                        Folder of chessboard images
+  --board-columns BOARD_COLUMNS
+  --board-rows BOARD_ROWS
+  --square-size SQUARE_SIZE
+  --debug

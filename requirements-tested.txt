@@ -1,0 +1,9 @@
+# Direct runtime versions used for Linux validation. Optional reproducibility aid.
+numpy==2.3.5
+scipy==1.17.0
+opencv-python-headless==4.14.0.94
+PySide6==6.11.2
+pyqtgraph==0.14.0
+PyYAML==6.0.3
+matplotlib==3.10.8
+psutil==7.2.2

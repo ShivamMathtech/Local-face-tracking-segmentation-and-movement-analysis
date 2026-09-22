@@ -1,0 +1,42 @@
+[
+  {
+    "algorithm": "detector-only",
+    "detector": "Synthetic scripted boxes (demo only)",
+    "frames": 210,
+    "processing_fps": 144.07342205480487,
+    "mean_latency_ms": 6.940905447637696,
+    "continuity_percent": 71.42857142857143,
+    "lost_frames": 60,
+    "detection_count": 390
+  },
+  {
+    "algorithm": "detector+kalman",
+    "detector": "Synthetic scripted boxes (demo only)",
+    "frames": 210,
+    "processing_fps": 150.4655714312363,
+    "mean_latency_ms": 6.646038628557671,
+    "continuity_percent": 71.42857142857143,
+    "lost_frames": 60,
+    "detection_count": 390
+  },
+  {
+    "algorithm": "detector+flow",
+    "detector": "Synthetic scripted boxes (demo only)",
+    "frames": 210,
+    "processing_fps": 45.07982518413319,
+    "mean_latency_ms": 22.182872180967802,
+    "continuity_percent": 71.42857142857143,
+    "lost_frames": 60,
+    "detection_count": 390
+  },
+  {
+    "algorithm": "detector+kalman+flow",
+    "detector": "Synthetic scripted boxes (demo only)",
+    "frames": 210,
+    "processing_fps": 28.37905135306418,
+    "mean_latency_ms": 35.237259609526255,
+    "continuity_percent": 71.42857142857143,
+    "lost_frames": 60,
+    "detection_count": 390
+  }
+]

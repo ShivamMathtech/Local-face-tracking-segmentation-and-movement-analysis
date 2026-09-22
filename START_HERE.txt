@@ -1,0 +1,17 @@
+FACE MOTION LAB — Shivam Singh / MathTech
+
+WINDOWS: Extract the ZIP, install Python 3.11+ (64-bit), then double-click run_windows.bat.
+MAC/LINUX: Open a terminal in this folder and run: bash run_mac_linux.sh
+
+First run downloads dependencies. Camera frames remain local.
+Try Demo > select a face > Lock selected to explore without a webcam.
+
+Manual:
+  python -m venv .venv
+  Activate .venv for your OS (see README.md).
+  python -m pip install -r requirements.txt
+  python -m face_motion_lab
+
+Dense facial landmarks and head pose use an optional MediaPipe model.
+See README.md for installation, exports, notebooks and limitations.
+This ZIP contains Python source, not a prebuilt .exe.
